@@ -1,0 +1,19 @@
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filters p {
+    padding: 10px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list {
+    padding: 20px 0;
+}

@@ -1,0 +1,28 @@
+.main {
+    margin: 32px auto;
+    width: min(90%, 1300px);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.date {
+    font-style: italic;
+}
+
+.image {
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.image img {
+    object-fit: cover;
+}
+
+@media (max-width: 700px) {
+    .image {
+        width: 100%;
+    }
+}

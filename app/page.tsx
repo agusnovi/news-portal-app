@@ -31,7 +31,7 @@ export default function Home() {
           <h1>Landscape</h1>
         </div>
       </header>
-      <main className={styles.main}>
+      <main className="main">
         <h1>Read your favorite news</h1>
       </main>
     </>
